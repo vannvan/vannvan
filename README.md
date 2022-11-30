@@ -2,7 +2,7 @@
 
 <h1 align="center"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">嘿, 你好哇！</h1>
 
-![](https://tva1.sinaimg.cn/large/e6c9d24egy1h5d7th3snpj21gv0u0doz.jpg)
+
 
 
 
