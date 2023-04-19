@@ -40,5 +40,5 @@ coding(一部分源于主业，一部分来自于兴趣的好玩儿的领域)
 ## 推荐
 一个积累了多年的私有导航,干货、工具、周边一应俱全  
 
-[导了个航](https://wwnav.netlify.app/) [仓库地址](https://github.com/vannvan/adoerww/tree/master/nav-refactor)
+[地址1](https://wwnav.netlify.app/) [地址2](https://fenav.vercel.app/) [仓库地址](https://github.com/vannvan/adoerww/tree/master/nav-refactor)
 ![](https://tva1.sinaimg.cn/large/008vxvgGgy1h8nbplny62j31ff0u0wmi.jpg) 
