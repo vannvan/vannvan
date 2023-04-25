@@ -2,7 +2,7 @@
 
 <h1 align="left"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">嘿, 你好哇！</h1>
 
----- 
+----
 
 
 <h4>
@@ -33,12 +33,25 @@ coding(一部分源于主业，一部分来自于兴趣的好玩儿的领域)
 
 <p>基于以上认知，这里超过90%代码、案例、demo、项目都是我实践过的，有完善的也有不完善的(不完善的因为种种原因没有进行过迭代，某种方面可能不具备参考价值还望见谅，如果有兴趣请联系我继续完善或共同完善它)，我会持续保持自我迭代，希望来过此地的你也一样！<p>
 
----- 
+----
 
 
 
 ## 推荐
-一个积累了多年的私有导航,干货、工具、周边一应俱全  
+### 工具导航
+
+一个积累了多年的私有导航,干货、工具、周边一应俱全，找资源、找站点不再发愁  
 
 [地址1](https://wwnav.netlify.app/) [地址2](https://fenav.vercel.app/) [仓库地址](https://github.com/vannvan/adoerww/tree/master/nav-refactor)
 ![](https://tva1.sinaimg.cn/large/008vxvgGgy1h8nbplny62j31ff0u0wmi.jpg) 
+
+### 语雀知识库导出
+
+[yuque-tools](https://github.com/vannvan/yuque-tools)
+
+### 前端基建案例&方法论
+
+不断完善中
+
+[front-end-infrastructure](https://github.com/vannvan/front-end-infrastructure)
+
