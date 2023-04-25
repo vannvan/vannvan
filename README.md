@@ -11,20 +11,12 @@
 <p>(正在努力成为)一个长期主义和终生成长的践行者。</p>
 </h4>
 
-## 关于我
-
-coding(一部分源于主业，一部分来自于兴趣的好玩儿的领域)    
-读书(读各类书，尝试知晓更多我未曾见过的世界)    
-音乐(没有一天离得开音乐的人 almost～)      
-爬山(不拍照)    
-状态(在成长)
-
-
 ## 如何应对知识
 所有的信息，只有当它们进入我们的大脑，经过我们的思考和审视，才有价值。  
 摄入、囤积起来的信息是没有价值的，它们对我们来说，就跟不存在一样。  
 并不是我们所囤积、所拥有的事物构成了我们的一生，而是我们的思考、感受和体验，这些才是我们生活的组成部分。  
 因此，多让大脑去消化，而不是停留在摄入。
+
 <p align="right">———刘瑜</p>
 
 
@@ -45,13 +37,14 @@ coding(一部分源于主业，一部分来自于兴趣的好玩儿的领域)
 [地址1](https://wwnav.netlify.app/) [地址2](https://fenav.vercel.app/) [仓库地址](https://github.com/vannvan/adoerww/tree/master/nav-refactor)
 ![](https://tva1.sinaimg.cn/large/008vxvgGgy1h8nbplny62j31ff0u0wmi.jpg) 
 
-### 语雀知识库导出
+| 项目                | 仓库                                                         | 描述                                                         |
+| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+| 语雀知识库导出      | [yuque-tools](https://github.com/vannvan/yuque-tools)        | 语雀知识库导出CLI工具，后续将拓展更多功能，打造多端知识库同步工具流 |
+| 前端基建案例&方法论 | [front-end-infrastructure](https://github.com/vannvan/front-end-infrastructure) | 记录经过实践的前端基础建设案例和方法论总结，当你需要独立承担项目/作为leader时，需要做哪些事情 |
+| Vue.js脚手架        | [wwvue-cli](https://github.com/vannvan/wwvue-cli)            | 基于项目实践的脚手架打造示例，减少重复配置环节，扩展常用模版，为建立工程化提供基本的支持 |
+| React.js脚手架      | [react-easy-cli](https://github.com/vannvan/react-easy-cli)  | 同Vue.js版本脚手架                                           |
 
-[yuque-tools](https://github.com/vannvan/yuque-tools)
 
-### 前端基建案例&方法论
 
-不断完善中
 
-[front-end-infrastructure](https://github.com/vannvan/front-end-infrastructure)
 
