@@ -36,9 +36,9 @@
 
 [地址1](https://wwnav.netlify.app/) [地址2](https://fenav.vercel.app/) [仓库地址](https://github.com/vannvan/adoerww/tree/master/nav-refactor)
 ![](https://tva1.sinaimg.cn/large/008vxvgGgy1h8nbplny62j31ff0u0wmi.jpg) 
-
-| 项目                | 仓库                                                         | 描述                                                         |
-| ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
+### 其他
+|项目                |仓库                                                         |描述                                                         |
+|:------------------- |:------------------------------------------------------------ |:------------------------------------------------------------ |
 | 语雀知识库导出      | [yuque-tools](https://github.com/vannvan/yuque-tools)        | 语雀知识库导出CLI工具，后续将拓展更多功能，打造多端知识库同步工具流 |
 | 前端基建案例&方法论 | [front-end-infrastructure](https://github.com/vannvan/front-end-infrastructure) | 记录经过实践的前端基础建设案例和方法论总结，当你需要独立承担项目/作为leader时，需要做哪些事情 |
 | Vue.js脚手架        | [wwvue-cli](https://github.com/vannvan/wwvue-cli)            | 基于项目实践的脚手架打造示例，减少重复配置环节，扩展常用模版，为建立工程化提供基本的支持 |
