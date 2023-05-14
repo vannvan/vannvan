@@ -15,6 +15,5 @@
 - [Vue.js脚手架](https://github.com/vannvan/wwvue-cli) 基于项目实践的脚手架打造示例，减少重复配置环节，扩展常用模版，为工程化提供基本的支持  
 - [React.js脚手架](https://github.com/vannvan/react-easy-cli) 同Vue.js版本脚手架  
 
-## vannvan's秘密花园
-[🫢偷偷闯进去->](https://www.yuque.com/vannvan)
-![https://www.yuque.com/vannvan](https://p.ipic.vip/r894ol.png)
+## vannvan's秘密花园(戳👇图可入)
+<a href="https://www.yuque.com/vannvan" target="_blank"><img src="https://p.ipic.vip/r894ol.png"></a>
