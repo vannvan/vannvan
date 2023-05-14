@@ -1,38 +1,20 @@
 <h1 align="left"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">嘿, 你好哇！</h1>
 
-<h4>
-<p>我是一个在成长和迭代的programmer  </p>
-<p>(正在努力成为)一个长期主义和终生成长的践行者。</p>
-</h4>
-
-## 如何应对知识
-所有的信息，只有当它们进入我们的大脑，经过我们的思考和审视，才有价值。  
-摄入、囤积起来的信息是没有价值的，它们对我们来说，就跟不存在一样。  
-并不是我们所囤积、所拥有的事物构成了我们的一生，而是我们的思考、感受和体验，这些才是我们生活的组成部分。  
-因此，多让大脑去消化，而不是停留在摄入。
-
-<p align="right">———刘瑜</p>
-
-## 因此
-
-<p>基于以上认知，这里超过90%代码、案例、demo、项目均经过实践和落地。坚持自我迭代，坚持用技术创造价值，共勉！<p>
-
-## 推荐
-### 工具导航
-
-一个积累了多年的私有导航,干货、工具、周边一应俱全，找资源、找站点不再发愁  
-
-[地址1](https://wwnav.netlify.app/) [地址2](https://fenav.vercel.app/) [仓库地址](https://github.com/vannvan/adoerww/tree/master/nav-refactor)
-![](https://tva1.sinaimg.cn/large/008vxvgGgy1h8nbplny62j31ff0u0wmi.jpg) 
-### 其他
-|项目                |仓库                                                         |描述                                                         |
-|:------------------- |:------------------------------------------------------------ |:------------------------------------------------------------ |
-| 语雀知识库导出      | [yuque-tools](https://github.com/vannvan/yuque-tools)        | 语雀知识库导出CLI工具，后续将拓展更多功能，打造多端知识库同步工具流 |
-| 前端基建案例&方法论 | [front-end-infrastructure](https://github.com/vannvan/front-end-infrastructure) | 记录经过实践的前端基础建设案例和方法论总结，当你需要独立承担项目/作为leader时，需要做哪些事情 |
-| Vue.js脚手架        | [wwvue-cli](https://github.com/vannvan/wwvue-cli)            | 基于项目实践的脚手架打造示例，减少重复配置环节，扩展常用模版，为建立工程化提供基本的支持 |
-| React.js脚手架      | [react-easy-cli](https://github.com/vannvan/react-easy-cli)  | 同Vue.js版本脚手架                                           |
+<p>
+  我是vannvan，在成长的<b>前端工程师</b>，长期主义和行动派，喜欢花式折腾。
+</p>
 
 
+## 折腾工具自荐
 
+- [语雀知识库导出](https://github.com/vannvan/yuque-tools) 开挂模式的语雀知识库导出CLI工具 ⭐️⭐️ 
+- [每日自动更新的前端优质信息资源](https://github.com/vannvan/high-quality-fe-resources/tree/main) 掌握`一手`的优质前沿信息，做不被淘汰的技术人(正在完善)  
+- [前端周边资源/工具导航站](https://github.com/vannvan/adoerww/tree/master/nav-refactor) 一个积累了多年的私有导航，干货、工具、周边一应俱全，找资源、找站点不再发愁  
+- [100个JS/CSS经典案例实现](https://vannvan.github.io/web-explore-demo/)  一些有意思的网页，各种CSS和JS奇淫技巧和可轻易改造复用的常用但记不住的综合实例，为撸代码提供灵感  
+- [vannvan的私人工具集](https://github.com/vannvan/adoerww) 没有设限的技术探索案例集和demo存档，兴许能为web开发带来更多灵感  
+- [Vue.js脚手架](https://github.com/vannvan/wwvue-cli) 基于项目实践的脚手架打造示例，减少重复配置环节，扩展常用模版，为工程化提供基本的支持  
+- [React.js脚手架](https://github.com/vannvan/react-easy-cli) 同Vue.js版本脚手架  
 
-
+## vannvan's秘密花园
+[🫢偷偷闯进去->](https://www.yuque.com/vannvan)
+![https://www.yuque.com/vannvan](https://p.ipic.vip/r894ol.png)
