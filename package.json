@@ -1,0 +1,29 @@
+{
+  "name": "vannvan",
+  "version": "1.0.0",
+  "description": "<h1 align=\"left\"><img src=\"https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif\" width=\"30px\">嘿, 你好哇！</h1>",
+  "type": "module",
+  "scripts": {
+    "task": "ts-node-esm -T src/everyday-task"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vannvan/vannvan.git"
+  },
+  "keywords": [],
+  "author": "vannvan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vannvan/vannvan/issues"
+  },
+  "homepage": "https://github.com/vannvan/vannvan#readme",
+  "dependencies": {
+    "@artus/tsconfig": "^1.0.1",
+    "@types/node": "^20.2.6",
+    "axios": "^1.4.0",
+    "chalk": "4",
+    "jsdom": "^22.1.0",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
