@@ -10,7 +10,7 @@ on:
     - cron: '50 15 * * *'
 env:
   # Setting an environment variable with the value of a configuration variable
-  env_var: ${{ vars.ENV_CONTEXT_VAR }}
+  env_var: ${{ COOKIE }}
 jobs:
   build:
     runs-on: ubuntu-latest
