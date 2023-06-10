@@ -25,7 +25,6 @@ class Task {
       Log.error('没有cookie，退出任务')
       process.exit(0)
     }
-    console.log('命令行参数', process.argv)
     const webExploreCount = await this.getWebExplore(cookie)
     if (webExploreCount) {
       this.writeReadme({
