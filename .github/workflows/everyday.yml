@@ -9,12 +9,12 @@ on:
   schedule:
     - cron: '50 15 * * *'
 env:
-  # Setting an environment variable with the value of a configuration variable
-  env_var: ${{ COOKIE }}
+  DAY_OF_WEEK: Monday
 jobs:
   build:
     runs-on: ubuntu-latest
-
+    env:
+      Greeting: Hello
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -23,7 +23,9 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - run: npm i
-      - run: echo "$COOKIE"
+      - run: | 
+        echo "$COOKIE" 
+        echo "$DAY_OF_WEEK"
       - run: npm run task $COOKIE
 
       - name: Commit
