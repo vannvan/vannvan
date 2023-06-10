@@ -10,6 +10,7 @@ on:
     - cron: '50 15 * * *'
 env:
   DAY_OF_WEEK: Monday
+  COOKIE: ${{ secrets.COOKIE }}
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -24,7 +25,7 @@ jobs:
 
       - run: npm i
       - run: echo "$COOKIE $DAY_OF_WEEK"
-      # - run: npm run task $COOKIE
+      - run: npm run task  $COOKIE
 
       - name: Commit
         run: |
