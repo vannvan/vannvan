@@ -23,10 +23,8 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - run: npm i
-      - run: | 
-        echo "$COOKIE" 
-        echo "$DAY_OF_WEEK"
-      - run: npm run task $COOKIE
+      - run: echo "$COOKIE $DAY_OF_WEEK"
+      # - run: npm run task $COOKIE
 
       - name: Commit
         run: |
