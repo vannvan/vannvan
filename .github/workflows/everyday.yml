@@ -23,7 +23,7 @@ jobs:
           registry-url: https://registry.npmjs.org/
 
       - run: npm i
-      - run: echo $COOKIE
+      - run: echo "$COOKIE"
       - run: npm run task $COOKIE
 
       - name: Commit
