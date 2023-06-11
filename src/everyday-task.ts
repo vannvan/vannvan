@@ -60,9 +60,6 @@ class Task {
             const names: string = blob.rawBlob.replace(/\s|\n/g, '').match(/(?<=\[).+(?=\])/)[0]
             const length = names.split(',').length
             resolve(length)
-            this.writeReadme({
-              webExploreCount: length,
-            })
           } catch (error) {
             Log.error(error.stack)
             reject(null)
