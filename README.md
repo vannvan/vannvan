@@ -1,6 +1,7 @@
 <h1 align="left"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">嘿, 你好哇！</h1>
 
-我是vannvan，一个爱折腾的<b>前端工程师</b>，长期主义和行动派。  
+我是vannvan，很高兴你发现我！
+> 一个爱折腾的<b>前端工程师</b>，长期主义和行动派。
 
 ## 折腾工具自荐
 
