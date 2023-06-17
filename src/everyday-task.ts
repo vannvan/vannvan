@@ -5,6 +5,7 @@ import jsdom from 'jsdom'
 import axios from 'axios'
 import { readFileSync, writeFileSync } from 'fs'
 import path from 'path'
+const { JSDOM } = jsdom
 
 class Task {
   github: string
@@ -15,8 +16,9 @@ class Task {
   }
 
   start() {
-    Log.info('每日任务开始')
-    this.crawlInfo()
+    Log.info('任务开始')
+    // this.crawlInfo()
+    this.getAdoerww()
   }
 
   async crawlInfo() {
@@ -65,6 +67,17 @@ class Task {
             reject(null)
           }
         })
+    })
+  }
+
+  getAdoerww() {
+    return new Promise((resolve, reject) => {
+      axios.get('https://github.com/vannvan/adoerww').then((res) => {
+        // console.log(res.data)
+        const dom = new JSDOM(res.data)
+        const document = dom.window.document
+        console.log(document.querySelector('.js-navigation-open Link--primary'))
+      })
     })
   }
 
