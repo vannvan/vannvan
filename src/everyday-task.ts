@@ -11,23 +11,18 @@ class Task {
   github: string
   webExploreScriptListUrl: string
   constructor() {
-    this.github = 'https://github.com/vannvan'
-    this.webExploreScriptListUrl = this.github + '/web-explore-demo/blob/master/script/filelist.js'
+    this.github = 'https://raw.githubusercontent.com/vannvan'
+    this.webExploreScriptListUrl = this.github + '/web-explore-demo/master/script/filelist.js'
   }
 
   start() {
     Log.info('任务开始')
-    // this.crawlInfo()
-    this.getAdoerww()
+    this.crawlInfo()
+    // this.getAdoerww()
   }
 
   async crawlInfo() {
-    const cookie = process.argv[2]
-    if (!cookie) {
-      Log.error('没有cookie，退出任务')
-      process.exit(0)
-    }
-    const webExploreCount = await this.getWebExplore(cookie)
+    const webExploreCount = await this.getWebExplore()
     if (webExploreCount) {
       this.writeReadme({
         webExploreCount: webExploreCount,
@@ -35,38 +30,25 @@ class Task {
     }
   }
 
-  getWebExplore(cookie: string): Promise<number | null> {
+  getWebExplore(): Promise<number | null> {
     return new Promise((resolve, reject) => {
-      axios
-        .get(this.webExploreScriptListUrl, {
-          headers: {
-            accept: 'application/json',
-            'accept-language': 'zh-CN,zh;q=0.9,en;q=0.8',
-            'if-none-match': 'W/"39e8efa0b94665537f7d855920bc890e"',
-            'sec-ch-ua': '"Not/A)Brand";v="99", "Google Chrome";v="115", "Chromium";v="115"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"macOS"',
-            'sec-fetch-dest': 'empty',
-            'sec-fetch-mode': 'cors',
-            'sec-fetch-site': 'same-origin',
-            'x-github-target': 'dotcom',
-            'x-requested-with': 'XMLHttpRequest',
-            cookie: cookie,
-            Referer: 'https://github.com/vannvan/web-explore-demo/blob/master/script/filelist.js',
-            'Referrer-Policy': 'no-referrer-when-downgrade',
-          },
-        })
-        .then((res) => {
-          const { blob } = res.data.payload
-          try {
-            const names: string = blob.rawBlob.replace(/\s|\n/g, '').match(/(?<=\[).+(?=\])/)[0]
-            const length = names.split(',').length
-            resolve(length)
-          } catch (error) {
-            Log.error(error.stack)
-            reject(null)
-          }
-        })
+      const config = {
+        method: 'get',
+        maxBodyLength: Infinity,
+        url: this.webExploreScriptListUrl,
+        headers: {},
+      }
+      axios(config).then((res) => {
+        const { blob } = res.data.payload
+        try {
+          const names: string = blob.rawBlob.replace(/\s|\n/g, '').match(/(?<=\[).+(?=\])/)[0]
+          const length = names.split(',').length
+          resolve(length)
+        } catch (error) {
+          Log.error(error.stack)
+          reject(null)
+        }
+      })
     })
   }
 
