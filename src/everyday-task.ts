@@ -38,10 +38,10 @@ class Task {
         url: this.webExploreScriptListUrl,
         headers: {},
       }
-      axios(config).then((res) => {
-        const { blob } = res.data.payload
+      axios(config).then((res: any) => {
+        const data = res.body
         try {
-          const names: string = blob.rawBlob.replace(/\s|\n/g, '').match(/(?<=\[).+(?=\])/)[0]
+          const names: string = data.replace(/\s|\n/g, '').match(/(?<=\[).+(?=\])/)[0]
           const length = names.split(',').length
           resolve(length)
         } catch (error) {
