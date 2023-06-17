@@ -18,6 +18,7 @@ class Task {
   start() {
     Log.info('任务开始')
     this.crawlInfo()
+
     // this.getAdoerww()
   }
 
@@ -39,7 +40,7 @@ class Task {
         headers: {},
       }
       axios(config).then((res: any) => {
-        const data = res.body
+        const data = res.data
         try {
           const names: string = data.replace(/\s|\n/g, '').match(/(?<=\[).+(?=\])/)[0]
           const length = names.split(',').length
