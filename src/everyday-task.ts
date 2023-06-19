@@ -10,27 +10,36 @@ const { JSDOM } = jsdom
 class Task {
   github: string
   webExploreScriptListUrl: string
+  getAdoerwwScriptUrl: string
   constructor() {
     this.github = 'https://raw.githubusercontent.com/vannvan'
     this.webExploreScriptListUrl = this.github + '/web-explore-demo/master/script/filelist.js'
+    this.getAdoerwwScriptUrl = this.github + '/adoerww//master/scripts/filelist.js'
   }
 
-  start() {
+  async start() {
     Log.info('任务开始')
     this.crawlInfo()
 
-    // this.getAdoerww()
+    // let ss = await this.getAdoerww()
+    // console.log(ss)
   }
 
   async crawlInfo() {
     const webExploreCount = await this.getWebExplore()
+    const adoerwwCount = await this.getAdoerww()
     if (webExploreCount) {
       this.writeReadme({
         webExploreCount: webExploreCount,
+        adoerwwCount: adoerwwCount,
       })
     }
   }
 
+  /**
+   * 待优化
+   * @returns
+   */
   getWebExplore(): Promise<number | null> {
     return new Promise((resolve, reject) => {
       const config = {
@@ -53,21 +62,33 @@ class Task {
     })
   }
 
-  getAdoerww() {
+  getAdoerww(): Promise<number | null> {
     return new Promise((resolve, reject) => {
-      axios.get('https://github.com/vannvan/adoerww').then((res) => {
-        // console.log(res.data)
-        const dom = new JSDOM(res.data)
-        const document = dom.window.document
-        console.log(document.querySelector('.js-navigation-open Link--primary'))
+      const config = {
+        method: 'get',
+        maxBodyLength: Infinity,
+        url: this.getAdoerwwScriptUrl,
+        headers: {},
+      }
+      axios(config).then((res: any) => {
+        const data = res.data
+        try {
+          const names: string = data.replace(/\s|\n/g, '').match(/(?<=\[).+(?=\])/)[0]
+          const length = names.split(',').length
+          resolve(length)
+        } catch (error) {
+          Log.error(error.stack)
+          reject(null)
+        }
       })
     })
   }
 
-  writeReadme(args: { webExploreCount: number }) {
-    const { webExploreCount } = args
+  writeReadme(args: { webExploreCount: number; adoerwwCount: number }) {
+    const { webExploreCount, adoerwwCount } = args
     const REG_MAP = {
       WEB_EXPLORE_COUNT: webExploreCount,
+      ADOERWW_COUNT: adoerwwCount,
       AUTO_UPDATE_TIME: Date().toLocaleUpperCase(), // 每次更新一下时间避免无改动后面的git操作失败
     }
 
