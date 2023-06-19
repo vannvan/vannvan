@@ -7,8 +7,8 @@ on:
   push:
     branches: ['main']
   schedule:
-#     - cron: '50 15 * * *'
-      - cron: '10 23 ? * 1'
+    #     - cron: '50 15 * * *'
+    - cron: '10 23 ? * 1'
 env:
   hahaha: 哈哈哈
   COOKIE: ${{ secrets.COOKIE }}
@@ -36,9 +36,10 @@ jobs:
           git config --global user.name vannvan
           git add .
           git commit -m "`date`"
-          git pull --rebase
+          # git pull --rebase
 
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
+          force: true
           github_token: ${{ secrets.GITHUB_TOKEN }}
