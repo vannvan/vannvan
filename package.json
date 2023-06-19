@@ -4,7 +4,7 @@
   "description": "<h1 align=\"left\"><img src=\"https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif\" width=\"30px\">嘿, 你好哇！</h1>",
   "type": "module",
   "scripts": {
-    "task": "ts-node-esm -T src/everyday-task"
+    "task": "ts-node-esm -T src/everyday-task.ts"
   },
   "repository": {
     "type": "git",

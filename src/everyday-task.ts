@@ -68,6 +68,7 @@ class Task {
     const { webExploreCount } = args
     const REG_MAP = {
       WEB_EXPLORE_COUNT: webExploreCount,
+      AUTO_UPDATE_TIME: Date().toLocaleUpperCase(), // 每次更新一下时间避免无改动后面的git操作失败
     }
 
     const regex = new RegExp(Object.keys(REG_MAP).join('|'), 'g')
