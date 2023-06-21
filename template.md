@@ -1,6 +1,8 @@
-<h1 align="left"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">嘿, 你好哇！</h1>
+<!-- <h1 align="left"><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">嘿, 你好哇！</h1> -->
 
-我是vannvan，欢迎到访！
+![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=Lifelong%20Learning%20👨‍💻&width=800&height=150)
+
+我是觉白，欢迎到访！
 > 一个爱折腾的<b>前端工程师</b>，长期主义和行动派。
 
 ## 折腾工具自荐
@@ -17,3 +19,5 @@
 <!-- ## vannvan's秘密花园(戳👇图可入) -->
 <!-- <a href="https://www.yuque.com/vannvan" target="_blank"><img src="https://p.ipic.vip/r894ol.png"></a> -->
 <!-- AUTO_UPDATE_TIME -->
+<!--START_SECTION:readme-info-->
+<!--END_SECTION:readme-info-->
