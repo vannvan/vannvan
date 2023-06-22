@@ -1,4 +1,4 @@
-<h1 align="left"><img src="https://raw.githubusercontent.com/vannvan/vannvan/master/Hi.gif" width="30px">嘿, 你好哇！</h1>
+<h1 align="left"><img src="https://raw.githubusercontent.com/vannvan/vannvan/main/Hi.gif" width="30px">嘿, 你好哇！</h1>
 
 <!-- ![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=Lifelong%20Learning%20👨‍💻&width=800&height=400) -->
 
