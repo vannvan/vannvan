@@ -3,7 +3,9 @@
 <!-- ![SVG Banners](https://svg-banners.vercel.app/api?type=typeWriter&text1=Lifelong%20Learning%20👨‍💻&width=800&height=400) -->
 
 我是觉·白，欢迎到访！
-> 一个爱折腾的<b>前端工程师</b>，长期主义和行动派。
+
+- 一个爱折腾的<b>前端工程师</b>，专注于有价值的事情，长期主义和行动派。  
+- 源于热爱！
 
 ## 折腾项目自荐
 
