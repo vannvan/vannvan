@@ -10,7 +10,7 @@
 ## 折腾项目自荐
 
 - ⭐️ [语雀知识库导出工具](https://github.com/vannvan/yuque-tools) 开挂模式的语雀知识库导出`CLI`工具  
-- 🍗 [技术月刊(每日更新)](https://github.com/vannvan/knowledge-garden/tree/master/Iteration/%E6%8A%80%E6%9C%AF%E6%9C%88%E5%88%8A) 涵盖了开源工具、技术新视界、技术方案等最新优质资源，欢迎和我一起学习
+- 🍗 [技术月刊(日更)-仓库](https://github.com/vannvan/front-end-monthly)｜[Vercel预览](https://front-end-monthly.vercel.app/) 涵盖了开源工具、技术新视界、技术方案、优质好文等最新优质资源，支持`RSS`订阅
 - 👻  [npm-scripts-proxy](https://github.com/vannvan/npm-scripts-proxy) 一个让`npm-scripts`的维护和使用体验变得更好的工具
 - 🌼 [前端周边资源/工具导航站(仓库)](https://github.com/vannvan/adoerww/tree/master/nav-refactor)｜[预览](https://wwnav.netlify.app/) 一个积累了多年的私有导航，干货、工具、周边一应俱全，找资源、找站点不再发愁
 - 🚀 [WEB_EXPLORE_COUNT个JS/CSS经典案例实现(仓库)](https://github.com/vannvan/web-explore-demo)｜[预览](https://vannvan.github.io/web-explore-demo/) `CSS`和`JS`奇淫技巧和可轻易改造复用的综合实例，众多灵感来源的宝藏之地  
