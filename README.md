@@ -4,9 +4,7 @@
 
 我是觉·白，欢迎到访！
 
-> 一个爱折腾的<b>前端工程师</b>，专注于有价值的事情，长期主义和行动派。  
-
-勉：好奇心和热爱产生的学习动机最终产生的效果和回报远远大于恐惧和欲望所驱动的。
+> 一个爱折腾的<b>前端工程师</b>，专注于有价值的事情，长期主义者和行动派。
 
 ## 折腾项目自荐
 
@@ -21,4 +19,4 @@
 
 <!-- ## vannvan's秘密花园(戳👇图可入) -->
 <!-- <a href="https://www.yuque.com/vannvan" target="_blank"><img src="https://p.ipic.vip/r894ol.png"></a> -->
-<!-- MON JUL 31 2023 23:19:10 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
+<!-- SAT AUG 05 2023 10:17:47 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
