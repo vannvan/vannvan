@@ -8,7 +8,7 @@
 
 ## 折腾项目自荐
 
-- ⭐️ [语雀知识库导出工具](https://github.com/vannvan/yuque-tools) 开挂模式的语雀知识库导出`CLI`工具  
+- ⭐️ [语雀知识库导出工具](https://github.com/vannvan/yuque-tools) 开挂模式的语雀知识库导出`CLI`工具和浏览器插件
 - 👻  [npm-scripts-proxy](https://github.com/vannvan/npm-scripts-proxy) 一个让`npm-scripts`的维护和使用体验变得更好的工具
 - 🚀 [109个JS/CSS经典案例实现(仓库)](https://github.com/vannvan/web-explore-demo)｜[预览](https://vannvan.github.io/web-explore-demo/) `CSS`和`JS`技巧(可轻易改造复用)的综合实例，众多灵感来源的宝藏之地  
 - 🎃 [好奇心(65)](https://github.com/vannvan/adoerww) 不设限的技术探索案例集，开箱即用的技术方案｜好玩好用的工具尝试｜千奇百怪的灵感实践
@@ -20,4 +20,4 @@
 -->
 <!-- ## vannvan's秘密花园(戳👇图可入) -->
 <!-- <a href="https://www.yuque.com/vannvan" target="_blank"><img src="https://p.ipic.vip/r894ol.png"></a> -->
-<!-- MON NOV 06 2023 23:19:52 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
+<!-- THU NOV 09 2023 11:34:22 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
