@@ -10,7 +10,7 @@ on:
 #   这一行是每天
     #     - cron: '50 15 * * *'
 #     这一行是每周
-    - cron: '10 23 ? * 1'
+    - cron: '10 23 ? * 3'
 env:
   hahaha: 哈哈哈
   COOKIE: ${{ secrets.COOKIE }}
