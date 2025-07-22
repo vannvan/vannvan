@@ -7,7 +7,7 @@
 <!-- > 一个爱折腾的<b>前端工程师</b>，专注于有价值的事情，长期主义者和行动派。 -->
 
 
-## 瞎折腾
+## 项目自荐
 
 - ⭐️ [语雀知识库+团队资源导出工具](https://github.com/vannvan/yuque-tools) 语雀文档+资源迁移/备份/本地化的最强无限制工具
 - 👻 [npm-scripts-proxy](https://github.com/vannvan/npm-scripts-proxy) 一个让`npm-scripts`的维护和使用体验变得更好的工具
@@ -21,4 +21,4 @@
 -->
 <!-- ## vannvan's秘密花园(戳👇图可入) -->
 <!-- <a href="https://www.yuque.com/vannvan" target="_blank"><img src="https://p.ipic.vip/r894ol.png"></a> -->
-<!-- WED JUL 16 2025 23:29:55 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
+<!-- TUE JUL 22 2025 09:15:45 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
