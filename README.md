@@ -7,6 +7,10 @@
 <!-- > 一个爱折腾的<b>前端工程师</b>，专注于有价值的事情，长期主义者和行动派。 -->
 
 
+![Readme Card](https://github-readme-stats.vercel.app/api?username=vannvan&hide=prs&show_icons=true&theme=tokyonight&line_height=24)
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vannvan&theme=tokyonight&layout=compact&card_width=400)
+
+
 ## 项目自荐
 
 - ⭐️ [语雀知识库+团队资源导出工具](https://github.com/vannvan/yuque-tools) 语雀文档+资源迁移/备份/本地化的最强无限制工具
