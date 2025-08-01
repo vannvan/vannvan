@@ -6,6 +6,9 @@
 
 <!-- > 一个爱折腾的<b>前端工程师</b>，专注于有价值的事情，长期主义者和行动派。 -->
 
+<!-- ![Readme Card](https://github-readme-stats.vercel.app/api?username=vannvan&hide=prs&show_icons=true&theme=tokyonight&line_height=24) -->
+<!-- ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=vannvan&theme=tokyonight&layout=compact&card_width=400)  -->
+
 
 ## 项目自荐
 
@@ -21,4 +24,4 @@
 -->
 <!-- ## vannvan's秘密花园(戳👇图可入) -->
 <!-- <a href="https://www.yuque.com/vannvan" target="_blank"><img src="https://p.ipic.vip/r894ol.png"></a> -->
-<!-- FRI AUG 01 2025 07:36:56 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
+<!-- WED JUL 30 2025 23:30:40 GMT+0000 (COORDINATED UNIVERSAL TIME) -->
